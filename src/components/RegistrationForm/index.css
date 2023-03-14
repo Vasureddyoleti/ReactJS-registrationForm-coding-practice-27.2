@@ -1,0 +1,83 @@
+/* Write your CSS code here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  color: #ea580c;
+  font-family: 'Roboto';
+}
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  height: 300px;
+  width: 400px;
+}
+.input-cont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+.submit-button {
+  background-color: #ea580c;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+.label-text {
+  font-family: 'Roboto';
+  font-size: small;
+  color: #475569;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.inputEl {
+  border: 2px solid #cbd2d9;
+  outline: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+.blur-text {
+  color: #ff0b37;
+  padding: 0px;
+  margin-top: 5px;
+  margin: 0px;
+  font-size: 12px;
+}
+
+.inputBlur {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
+
+.submitted-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  height: 300px;
+  width: 400px;
+}
+.success-image {
+  width: 100px;
+  height: 100px;
+}
+.submitted-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
